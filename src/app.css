@@ -1,0 +1,35 @@
+.wellbore-visualizer-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - var(--main-header-height));
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.wellbore-visualizer-header {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  height: var(--main-header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+.wellbore-visualizer-header-title {
+  font-size: 1.8rem;
+  margin: 0;
+  padding-left: 50px;
+}
+
+.wellbore-visualizer-header-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 50px;
+  column-gap: 20px;
+}
