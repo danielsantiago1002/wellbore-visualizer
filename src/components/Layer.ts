@@ -280,13 +280,12 @@ const renderIntersection = (
   };
 
   const controller = new Controller({ layers, ...opts });
+  controller.setXAxisOffset(10);
+  controller.setYAxisOffset(10);
 
   controller.adjustToSize(width, height);
   controller.setViewport(1000, 1000, 6000);
   controller.zoomPanHandler.zFactor = 1;
-  controller.overlay.source?.style.setProperty('background-color', '#f8f9fa');
-  controller.overlay.source?.style.setProperty('overflow', 'hidden');
-  controller.overlay.source?.style.setProperty('color', '#212529');
 
   root.appendChild(container);
   return root;

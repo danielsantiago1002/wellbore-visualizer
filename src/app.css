@@ -5,7 +5,7 @@
   justify-content: center;
   height: calc(100vh - var(--main-header-height));
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 
 .wellbore-visualizer-header {

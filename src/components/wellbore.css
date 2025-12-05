@@ -1,0 +1,15 @@
+#overlay > div.axis > svg > g.x-axis {
+    font-size: 12px;
+}
+
+#overlay > div.axis > svg > g.y-axis {
+    font-size: 12px;
+}
+
+#overlay > div.axis > svg > g.x-axis > text {
+    font-size: 14px !important;
+}
+
+#overlay > div.axis > svg > g.y-axis > text {
+    font-size: 14px !important;
+}

@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { intersection } from "./Layer";
+import "./wellbore.css"
 
 export const Wellbore = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -7,8 +8,8 @@ export const Wellbore = () => {
   useEffect(() => {
     if (containerRef.current) {
       const dimensions = {
-        width: containerRef.current.getBoundingClientRect().width,
-        height: containerRef.current.getBoundingClientRect().height,
+        width: containerRef.current.getBoundingClientRect().width - 10, // Adjust for padding/margin
+        height: containerRef.current.offsetHeight - 7, // There is a bug related with the axis rendering adding some extra height
       }
       const element = intersection(dimensions);
       containerRef.current.innerHTML = "";
