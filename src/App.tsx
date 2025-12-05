@@ -1,5 +1,7 @@
 import "./app.css"
 import { Wellbore } from "./components/Wellbore"
+import linkedInIcon from "./assets/linkedin-svgrepo-com.svg"
+import githubIcon from "./assets/github-svgrepo-com.svg"
 
 function App() {
 
@@ -14,7 +16,7 @@ function App() {
         <div className="wellbore-visualizer-header-links">
           <span>
             <a href="https://www.linkedin.com/in/danielavila1002/" target="_blank" rel="noopener noreferrer">
-              <img src={"src/assets/linkedin-svgrepo-com.svg"} alt="linkedin" style={{
+              <img src={linkedInIcon} alt="linkedin" style={{
                 display: "inline-block",
                 width: "30px"
               }} />
@@ -22,7 +24,7 @@ function App() {
           </span>
           <span>
             <a href="https://github.com/danielsantiago1002" target="_blank" rel="noopener noreferrer">
-              <img src={"src/assets/github-svgrepo-com.svg"} alt="github" style={{
+              <img src={githubIcon} alt="github" style={{
                 display: "inline-block",
                 width: "30px"
               }} />
