@@ -40,8 +40,6 @@ const renderIntersection = (
     unitOfMeasure: 'm',
   };
 
-  console.log('Dimensions:', dimensions);
-
   const width = dimensions.width;
   const height = dimensions.height;
 
