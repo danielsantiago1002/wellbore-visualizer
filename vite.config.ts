@@ -10,5 +10,6 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/wellbore-visualizer/'
+  base: '/wellbore-visualizer/',
 })
+

@@ -14,7 +14,7 @@ function App() {
         <div className="wellbore-visualizer-header-links">
           <span>
             <a href="https://www.linkedin.com/in/danielavila1002/" target="_blank" rel="noopener noreferrer">
-              <img src="src/assets/linkedin-svgrepo-com.svg" alt="linkedin" style={{
+              <img src={"src/assets/linkedin-svgrepo-com.svg"} alt="linkedin" style={{
                 display: "inline-block",
                 width: "30px"
               }} />
@@ -22,7 +22,7 @@ function App() {
           </span>
           <span>
             <a href="https://github.com/danielsantiago1002" target="_blank" rel="noopener noreferrer">
-              <img src="src/assets/github-svgrepo-com.svg" alt="github" style={{
+              <img src={"src/assets/github-svgrepo-com.svg"} alt="github" style={{
                 display: "inline-block",
                 width: "30px"
               }} />
