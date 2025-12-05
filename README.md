@@ -15,3 +15,6 @@ npm install
 ```bash
 npm start
 ```
+# Preview
+
+https://danielsantiago1002.github.io/wellbore-visualizer/
