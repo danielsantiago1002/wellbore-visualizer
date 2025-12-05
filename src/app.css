@@ -10,7 +10,7 @@
 
 .wellbore-visualizer-header {
   background-color: #282c34;
-  color: white;
+  color: #fff;
   text-align: center;
   height: var(--main-header-height);
   display: flex;
