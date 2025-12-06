@@ -26,12 +26,26 @@
   padding-left: 50px;
 }
 
+@media (max-width: 600px) {
+  .wellbore-visualizer-header-title {
+    font-size: 1.2rem;
+    padding-left: 20px;
+  }
+}
+
 .wellbore-visualizer-header-links {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-right: 50px;
   column-gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .wellbore-visualizer-header-links {
+    padding-right: 20px;
+    column-gap: 10px;
+  }
 }
 
 .wellbore-visualizer-header-links img {
